@@ -1,0 +1,49 @@
+#Outer{
+    width: auto;
+    height: auto;
+    border: 1px solid black;
+  }
+  #resum{
+    font-weight: bold;
+    text-align: center;
+  }
+  
+  #personal{
+    column-gap: 500px;
+    display: flex;
+  }
+  #mailphone{
+    margin-inline-start: 50px;
+    left: 20px;
+  }
+  #photo{
+    margin-inline-end: 50px;
+    
+  }#photostyle{
+    border-radius: 100px;
+    width: 100px; 
+    height: auto; 
+    object-fit: cover;
+  }#line{
+    margin-left: 50px;
+    margin-right: 80px;
+  }
+  .bgcolor{
+    background-color: rgb(108, 193, 238);
+    margin-left: 50px;
+    margin-right: 80px;
+    font-weight: bold;
+  }
+  #qualification{
+    margin-top: 5px;
+    margin-bottom: 5px;
+  }
+  table,th,tr,td{
+    margin: auto;
+    padding-left: 5px;
+    border: 2px solid black;
+    border-collapse: collapse;
+  }
+  ul{
+    margin-left: 80px;
+  }
